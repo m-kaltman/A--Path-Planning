@@ -1,0 +1,18 @@
+#####################################################################
+
+Created by Matthew Kaltman, Spring 2021
+ECE10: Robotics Kinematics and Dynamics 
+A* Path Planning and Visualization algorithm for final project
+
+#####################################################################
+
+
+Utilizes Manhattan Distance calculation heuristic
+
+Fscore = Gcsore + Hscore
+ 
+ where
+ 
+      Gscore = units traveled from start node
+      Hscore = units to destination as estimated by heuristic 
+      Fscore = total score of node (lower score is better)
